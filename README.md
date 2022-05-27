@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Progressive Text Editor is a simple text editor with a twist: it functions as a Progressive Web Application, allowing it to run and hold state between reloads and even when offline. This makes it ideal for holding small tet or code snippets.
 
-[Screenshot of Progressive Text Editor](https://drive.google.com/file/d/1xowJKBBjrnqFRX2R6u9rHpsD3WL3N6mp/view)
+![Screenshot of Progressive Text Editor](https://user-images.githubusercontent.com/56412072/170623486-af86d401-9903-4d7a-bbe7-8e0f16ccb1ba.jpg)
 
 
 ## Table of Contents
