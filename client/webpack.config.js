@@ -18,6 +18,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
+        favicon: 'favicon.ico',
       }),
       new GenerateSW(),
       new WebpackPwaManifest({
@@ -28,6 +29,7 @@ module.exports = () => {
         theme_color: '#7eb4e2',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -43,6 +45,10 @@ module.exports = () => {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
+          type: 'asset/resource',
         },
         {
           test: /\.m?js$/,
